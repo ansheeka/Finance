@@ -1,0 +1,5 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <h3>{{ stock["symbol"] }}: {{ stock["price"] | usd }}</h3>
+{% endblock %}
